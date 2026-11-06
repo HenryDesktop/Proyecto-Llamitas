@@ -1,9 +1,3 @@
-
-# Proyecto Llamitas
-
-Proyecto de 5A Programación
-
-
 # Proyecto Llamitas
 
 Proyecto de 5A Programación
