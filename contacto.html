@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+  <title>Contacto | Mr Maqui </title>
+  <style>
+    body { 
+      background-color: #0f1020; 
+      color: #e8e9f7;
+      margin: 0; 
+    }
+    a {
+       color: #00e5a8; 
+      }
+    .contenedor { 
+      width: 10%; max-width: 1000px; margin: 0 auto; 
+    }
+
+    .banner { 
+      background-color: #1c1b4a; 
+      padding: 40px 0; 
+      text-align: center; 
+    }
+    .banner h1 {
+       margin: 10px; 
+      }
+    .banner p { 
+      color: #a3a6c8; 
+      margin: 0; 
+    }
+
+    .btn { 
+      display: inline-block; 
+      padding: 12px 24px; 
+      margin-top: 15px; 
+      margin-bottom: 15px;
+       background-color: #00e5a8; 
+       color: #05261c; 
+       font-size: 16px; 
+       font-weight: bold;
+      border: none; 
+      border-radius: 20px; 
+      cursor: pointer;
+      }
+    .btn:hover { 
+      background-color: #ff4d8d; 
+      color: #ffffff; 
+    }
+
+    footer { 
+      background-color: #181a33; 
+      padding: 20px 0; 
+      text-align: center;
+       color: #a3a6c8; 
+      }
+    footer ul { 
+      list-style: none;
+       margin: 10px; 
+       padding: 2em; 
+      }
+    footer li { 
+      display: inline-block; 
+      margin: 0 10px; 
+    }
+    footer a { 
+      text-decoration: none; 
+    }
+    footer a:hover { 
+      color: #ff4d8d; 
+    }
+  </style>
+</head>
+<body>
+<section>
+  <div class="contenedor">
+    <h2>Escríbenos</h2>
+    <form">
+      <p> Nombre </p>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+      <p> Correo </p>
+      <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+
+      <p> Tipo de consola</p>
+      <select id="consola" name="consola">
+        <option>Xbox 360</option>
+        <option>Xbox One</option>
+        <option>Nintendo Switch</option>
+        <option>PS4</option>
+        <option>PS5</option>
+        <option>Nintendo Switch 2</option>
+        <option>Xbox Series S/X</option>
+        <option>SteamDeck</option>
+
+      </select>
+
+      <p> Describe el problema </p>
+      <textarea id="mensaje" name="mensaje"></textarea>
+      <br>
+      <button class="btn" type="submit">Enviar mensaje</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <ul>
+    <li><a href="index.html"><h1>Inicio</h1></a></li>
+    <li><a href="servicios.html"><h1>Servicios</h1></a></li>
+    <li><a href="nosotros.html"><h1>Nosotros</h1></a></li>
+    <li><a href="contacto.html"><h1>Contacto</h1></a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
